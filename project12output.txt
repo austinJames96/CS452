@@ -1,0 +1,10 @@
+/* Austin Sypolt CS452 Parallel Algorithms */
+
+Project 1.2 Output
+
+mpicxx -o blah projectavg.cpp
+thomas:[~/CS452]$ mpirun -q -np 20 blah
+
+The average is: 3
+The maximum is: 7
+The minimum is: 0
